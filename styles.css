@@ -1,0 +1,1013 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width:100vw;
+  height: 100vw;
+  float: left;
+  background-color: white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+a{
+  text-decoration: none;
+}
+  header{
+    width:100%;
+    float:left;
+    height:70px;
+    position:fixed;
+    background-color:white;
+  }
+  header img{
+    width:20%;
+    height:100%;
+    float:left;
+   
+  }
+  #trigger{
+    float:left;
+    width:80%;
+    height:100%;
+    text-align: center;
+  }
+  #pinpoint li{
+    float:left;
+    width:14%;
+    list-style: none;
+    height:100%;
+    
+  }
+  #pinpoint a{
+    float:left;
+    width:60%;
+    text-decoration: none;
+    color:black;
+    height:65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.1rem ;
+    /* margin-left: 5%; */
+  }
+  #pinpoint a:hover{
+    background-color: #663046;
+    color:white;
+  }
+  #btn{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    height: 100%;;
+    
+  }
+  #btn a{
+    float:left;
+    background-color:white;
+    width:100%;
+    font-size: 1rem;
+  }
+  /* the header ends */
+
+  /* this main starts here */
+  #blonde{
+    background-image:
+      url(https://media.istockphoto.com/photos/beauty-fashion-model-girl-with-colorful-dyed-hair-picture-id952087324?k=20&m=952087324&s=612x612&w=0&h=DA1yp04oNEAvNSP0GOCaCjBzggsfz7ZrThPOAdfWjC8=);
+    background-size: 100% 800px;
+    background-repeat:no-repeat;
+    height:1000px;
+    float:left;
+    width:100%;
+    clear:both;
+    padding-bottom: 180px;
+    margin-top: 70px;
+    
+  }
+  #blonde h1{
+   
+    margin-top: 10%;
+  }
+  #blonde span{
+    margin-top:5%;
+   
+    width: 80%;
+  }
+  .light > nav{
+    width: 100%;
+    float:left;
+    
+    height:200px;
+    
+    
+  }
+  #buttonOne a{
+      color: white;
+      font-size:35px; 
+  }
+  .serviceButton{
+      background-color:black;
+      height: 70px;
+      width: 300px;
+      margin-left: 100px;
+      
+  }
+  .light > h1{
+    font-size:100px;
+    height:200px;
+    float:left;
+    width:50%;
+    color:white;
+    margin-left: 100px;
+    
+  }
+  .light > span {
+    
+    height:70px;
+    width:100%;
+    float:left;
+    font-size:30px;
+    color:white;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-left: 100px;
+    
+  }
+  #blonde > #first{
+      
+      float:left;
+      color:white;
+      background-color: black;
+      height: 300px;
+      margin-left: 100px;
+      width:320px;
+      
+  }
+  #first > h5{
+     
+     margin-top: 50px;
+     margin-left: 30px;
+     font-size: 20px;
+  }
+  #first > p {
+      
+      margin-left: 20px;
+      margin-top: 0px;
+      height: 90px;
+      font-size: 30px;
+      margin-right: 30px;
+      text-align: left;
+  }
+  #first > #buttonTwo a{
+     
+      font-size: 15px;
+  }
+  #first > #buttonTwo > .buttonBook{
+      height: 40px;
+      width: 150px;
+      margin-left: 20px;
+      margin-top: 50px;
+
+  }
+  .buttonBook a{
+    color: black;
+    font-size: 1.3rem;
+  }
+  #expert{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+  }
+  .hair{
+      width:20%;
+      float:left;
+      height: 400px;
+      margin: 80px 50px 0 0;
+      text-align: center;
+      line-height: 2em;
+     
+  }
+ 
+  .hair  > h3{
+      font-size:25px;
+      margin-top: 40px;
+      font-family: 'Montserrat', sans-serif;
+
+  }
+  .hair > img {
+      height: 100px;
+      margin-left:10px ;
+      width: 100px;
+  }
+  .chair{
+      width:200px;
+  }
+  .hair > p{
+      width: 100%;
+      height: 100px;
+      margin-top:40px ;
+      font-size:18px;
+      font-family: 'Montserrat', sans-serif;
+      
+  }
+  #momentum{
+      width:100%;
+      height: 600px;
+      margin-top: 40px;
+      float:left;
+      background-color: rgb(240,241,244);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+  }
+  #momentum section{
+    
+    height: 80%;
+    float: left;
+    width: 80%;
+   
+  }
+  .left{
+    width: 40%;
+    height: 80%;
+    float: left;
+    margin-right: 30px;
+    
+  }
+  .left h2{
+    margin-bottom:50px;
+    font-size: 2.2rem;
+  }
+  .left p{
+    line-height: 1.8rem;
+    margin-bottom: 40px;
+  }
+  #readBut{
+    
+    height: 10%;
+    width:35%;
+  }
+  #readBut button{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+  }
+  #readBut a{
+    font-size: 1rem;
+    color: white;
+  }
+  #video{
+    width:54%;
+    height: 80%;
+   
+    float: left;
+  }
+  iframe{
+    height: 100%;
+    width: 100%;
+  }
+  
+ #barbers,#discount,#pictures{
+  float:left;
+  width:100%;
+ }
+ #barbers{
+  height:600px;
+  text-align: center;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+ }
+ .names{
+  float:left;
+  width:20%;
+  height:70%;
+  /* margin top right bottom left */
+  margin:40px 20px 0 10px;
+  background-color: rgba(240,241,244);
+  display: flex;
+  align-items:flex-end ;
+ }
+ #williams{
+  background-image:
+      url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fayesha.dropletthemes.com%2Fwp-content%2Fuploads%2F2019%2F08%2FStyler-01.jpg&f=1&nofb=1&ipt=d9fb6d7712caba32a8e967fd404b81ed26e303cfd4f024845b3bd86b3a15971c&ipo=images);
+    background-size: 100% 90%;
+    background-repeat:no-repeat;
+    background-color: white;
+ }
+#lake{
+  background-image:
+      url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Frascaltwo.github.io%2Fstatic-websites%2F6872630-Ayesha-Hair-Salon-Template-Home-03%2Fassets%2Flake.jpg&f=1&nofb=1&ipt=50a3f6d57136fab714ba34a2d0d3ed16f6c24f3bbe49316ea6cb77f7ef459170&ipo=images);
+    background-size: 100% 90%;
+    background-repeat:no-repeat;
+    background-color: white;
+}
+#michael{
+  background-image:
+      url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Frascaltwo.github.io%2Fstatic-websites%2F6872630-Ayesha-Hair-Salon-Template-Home-03%2Fassets%2Fmichhael.jpg&f=1&nofb=1&ipt=75c2c746aa61e6c07395272b7864dd14860d10e497541efa494c98ebf6c608fe&ipo=images);
+    background-size: 100% 90%;
+    background-repeat:no-repeat;
+    background-color: white;
+}
+.names div{
+  background-color: black;
+  color:white;
+  width: 80%;
+  height:75px;
+  margin-top: 500px;
+  margin-left: 10%;
+  
+}
+.names h4{
+  width:100%;
+  margin-top:20px;
+  margin-bottom: 2%;
+  font-size:1.1rem;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.names span{
+  font-size:0.8rem;
+}
+#discount{
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+#discount div{
+  background-image:
+  url(https://static.wixstatic.com/media/b87ced_fe561630db2f4ea39a84ab6f947a05ca~mv2.jpg/v1/fill/w_799,h_551,al_c,q_85,enc_auto/mobile.jpg);
+background-size: 100% 100%;
+background-repeat:no-repeat;
+height:70%;
+width:80%;
+}
+#discount h3{
+  height:30%;
+  display: flex;
+  
+  align-items: flex-end;
+  margin-left: 5%;
+  font-size: 1.3rem;
+}
+#discount p{
+  
+  height:30%;
+  margin-left: 5%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1.7rem;
+  width: 40%;
+}
+#discount b{
+  margin-top: -30px;
+  padding-right: 10px;
+  
+}
+#discount a{
+text-align: center;
+  color:white;
+  font-size: .8rem;
+}
+#book{
+  border:solid white;
+  height: 15%;
+  width: 20%;;
+  margin-top: 10px;
+  margin-left: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  text-align: center;
+}
+#lookbook {
+ 
+  float: left;
+  width: 100%;
+  text-align: center;
+  font-size: 1.3rem;
+  }
+#pictures{
+  height: 1000px;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#boxes{
+  height:90%;
+  width: 60%;
+  float: left;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+#boxes img{
+  width:100%;
+  height:100%;
+  
+}
+.one, .two, .three, .four, .five, .six{
+  width:30%;
+  height: 30%;
+  margin: 1%;
+}
+.two{
+height:60%;
+
+}
+.four{
+  height:60%;
+  position:relative;
+bottom:30%;
+}
+.six{
+  height:60%;
+  position:relative;
+bottom:30%;
+}
+.five:hover{
+  background-color: black;
+  border:10px solid seagreen;
+}
+
+
+/* this ends the main html */
+
+/* this starts the media screen */
+@media screen and (max-width: 1100px) and (min-width: 701px){
+  body{
+    width: 100%;
+    height:5000px;
+  }
+  #expert{
+    margin-bottom: 100px;
+  }
+  #blonde h1{
+    font-size:3.5rem;
+  }
+  #blonde span{
+    font-size:1.5rem;
+  }
+  
+  .hair{
+   
+    height: fit-content;
+  }
+ 
+  .hair > p {
+    width: 90%;
+    height: 100%;
+    font-size: 1rem;
+  }
+  .momentum{
+    width: 100%;
+    height:1000px;
+    float: left;
+    text-align:center;
+    margin-bottom: 100px;
+  }
+  
+  
+  .left h2{
+    margin-bottom:10px;
+  }
+  .left p{
+    line-height: 1.2rem;
+  }
+  .names h4{
+    font-size: 0.8rem;
+  }
+  .names span{
+    font-size:0.8rem ;
+  }
+  #discount{
+    height: 800px;
+    width: 100%;
+    
+  }
+  #discount div{
+    width: 100%;
+  }
+  #discount b{
+    margin-top: -70px;
+    padding-right: 10px;
+  }
+  #book{
+    width: 25%;
+    height: 10%;
+  }
+  .one, .two, .three, .four, .five, .six{
+    width: 40%;
+    height: 30%;
+    position: static;
+  }
+
+}
+
+
+@media screen and (max-width: 700px) and (min-width: 481px) {
+  body{
+    width: 100vw;
+   }
+   p{
+    line-height: 1.4rem;
+   }
+   #pinpoint{
+    
+    height:100%;
+    float: left;
+    width: 75%;
+   
+   }
+   #pinpoint li{
+    float:left;
+    width:14%;
+    list-style: none;
+    height:100%;
+    margin-right: 5px;
+  }
+   #pinpoint a{
+    font-size: 0.5rem;
+  }
+  #pinpoint a:hover{
+    width:100%;
+  }
+  #btn{
+    float: left;
+   
+    width: 25%;
+  }#blonde{
+    width: 100%;
+    height:800px;
+  }
+  #blonde h1{
+    font-size: 2.5rem;
+    margin-left:30px;
+    height: 15%;
+   
+  }
+  #blonde span{
+    margin-left:30px;
+    font-size: 1rem;
+    margin-top:30px ;
+  }
+  .serviceButton{
+    height: 50px;
+    width: 150px;
+    margin-left: 30px;
+  }
+  #buttonOne a{
+    font-size:14px;
+  }
+  #blonde > #first{
+    margin-left: 30px;
+    margin-top: 80px;
+   
+  }
+   
+  #first > h5{
+    font-size: 20px;
+    margin-bottom: 20px;
+ }
+ #first > p {
+     font-size: 25px;
+ }
+   #expert{
+    width: 100%;
+    
+   }
+   .hair{
+    float:left;
+    width: 100%;
+    /* margin top right bottom left */
+    margin: 80px 2px 0 0;
+   }
+   .hair > h3{
+    font-size: 17px;
+   }
+   #momentum{
+    width: 100%;
+   }
+   .left{
+    width:100%;
+    height: 55%;
+    float: left;
+   }
+   .left h2{
+    font-size:1rem ;
+   }
+   .left p{
+    font-size:0.8rem ;
+    margin-bottom: 15px;
+   }
+   #readBut{
+    margin-top:0;
+   }
+   #readBut a{
+    font-size: 0.7rem;
+   }
+   #video{
+    width: 100%;
+    height: 50%;
+    float: left;
+    margin-top: 15px;
+   }
+   #barbers{
+    width:100%;
+   }
+   .names{
+    width: 50%;
+   }
+   .names h4{
+    font-size: 0.6rem;
+   }
+   .names span{
+    font-size: 0.6rem;
+   }
+   #discount{
+    width: 100%;
+   }
+   #discount div{
+    width: 100%;
+   }
+   #discount p{
+    font-size: 1rem;
+    width: 55%;
+    height: 20%;
+   }
+   #discount b{
+    margin-top: -25px;
+   }
+   #book{
+    width: 40%;
+   }
+   #book a{
+    font-size: 0.7rem;
+   }
+   .one, .two, .three, .four, .five, .six{
+    width: 40%;
+    height: 30%;
+    position: static;
+  }
+  
+}
+
+ 
+  @media only screen and (max-width: 480px) and (min-width: 400px) and (-webkit-device-pixel-ratio: 1){
+   body{
+    width: 100vw;
+   }
+   p{
+    line-height: 1.4rem;
+   }
+   #pinpoint{
+    height:100%;
+    float: left;
+    width: 73%;
+   
+   }
+   #pinpoint li{
+    float:left;
+    width:15.7%;
+    list-style: none;
+    height:100%;
+    margin-right: 2px;
+  }
+   #pinpoint a{
+    font-size: 0.5rem;
+    width: 100%;
+  }
+  #pinpoint a:hover{
+    width:100%;
+  }
+  #btn{
+    float: left;
+  
+    width: 25%;
+  }#blonde{
+    width: 100%;
+    height:700px;
+  }
+  #blonde h1{
+    font-size: 2.5rem;
+    margin-left:30px;
+    height: 15%;
+   
+  }
+  #blonde span{
+    margin-left:30px;
+    font-size: 1rem;
+    margin-top:30px;
+  }
+  .serviceButton{
+    height: 50px;
+    width: 150px;
+    margin-left: 30px;
+  }
+  #buttonOne a{
+    font-size:14px;
+  }
+  #blonde > #first{
+    margin-left: 30px;
+    margin-top: 90px;
+    height: 45%;
+    width: 80%;
+  }
+  
+  #first > h5{
+    font-size: 20px;
+    margin-bottom: 20px;
+ }
+ #first > p {
+     font-size: 25px;
+ }
+ #first > #buttonTwo > .buttonBook{
+  margin-top:0;
+ }
+   #expert{
+    width: 100%;
+    height: 600px;
+   }
+   .hair{
+    float:left;
+    width: 100%;
+    /* margin top right bottom left */
+    margin: 20px 2px 0 0;
+   }
+   .hair > h3{
+    font-size: 17px;
+   }
+   .hair > p{ 
+    font-size: 15px;
+   }
+   #momentum{
+    width: 100%;
+    height: 700px;
+    margin: 0;
+   }
+   .left{
+    width:100%;
+    height: 55%;
+    float: left;
+   }
+   .left h2{
+    font-size:1.4rem ;
+    margin-bottom: 20px;
+   }
+   .left p{
+    font-size:0.8rem ;
+    margin-bottom: 15px;
+    line-height: 0.9rem;
+   }
+   #readBut{
+    margin-top:0;
+   }
+   #readBut a{
+    font-size: 0.7rem;
+   }
+   #video{
+    width: 100%;
+    height: 50%;
+    float: left;
+    margin-top: 15px;
+   }
+   #barbers{
+    width:100%;
+   
+   }
+   .names{
+    width: 50%;
+    margin-right: 5px;
+   }
+   .names h4{
+    font-size: 0.6rem;
+   }
+   .names span{
+    font-size: 0.6rem;
+   }
+   #discount{
+    width: 100%;
+    height: 350px;
+   
+    display: unset;
+   }
+   #discount div{
+    width: 100%;
+    
+    height:85%;
+   }
+   #discount p{
+    font-size: 1rem;
+    width: 55%;
+    height: 20%;
+   }
+   #discount b{
+    margin-top: -25px;
+   }
+   #book{
+    width: 40%;
+   }
+   #book a{
+    font-size: 0.7rem;
+   }
+   #boxes{
+    width: 80%;
+   }
+   .one, .two, .three, .four, .five, .six{
+    width: 45%;
+    height: 30%;
+    position: static;
+  }
+  
+}
+
+@media only screen and (max-width: 399px) and (min-width: 320px) and (-webkit-device-pixel-ratio: 1){
+  body{
+    width: 100vw;
+   }
+   p{
+    line-height: 1.4rem;
+   }
+   #pinpoint{
+    height:100%;
+    float: left;
+    width: 72%;
+   
+   }
+   #pinpoint li{
+    float:left;
+    width:14%;
+    list-style: none;
+    height:100%;
+    margin-right: 5px;
+  }
+   #pinpoint a{
+    font-size: 0.5rem;
+  }
+  #pinpoint a:hover{
+    width:100%;
+  }
+  #btn{
+    float: left;
+   
+    width: 28%;
+  }
+  #btn a{
+    font-size: 10px;
+  }
+  #blonde{
+    width: 100%;
+    height:700px;
+  }
+  #blonde h1{
+    font-size: 2.2rem;
+    margin-left:30px;
+    height: 15%;
+   
+  }
+  #blonde span{
+    margin-left:30px;
+    font-size: 1rem;
+    margin-top:20px;
+  }
+  .serviceButton{
+    height: 50px;
+    width: 120px;
+    margin-left: 30px;
+  }
+  #buttonOne a{
+    font-size:14px;
+  }
+  #blonde > #first{
+    margin-left: 30px;
+    margin-top: 100px;
+    height: 40%;
+    width: 90%;
+  }
+  #first > h5{
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+ }
+ #first > p {
+     font-size: 20px;
+     height:70px;
+    
+ }
+ #first > #buttonTwo > .buttonBook{
+  margin-top:0;
+ }
+   #expert{
+    width: 100%;
+    height: 550px;
+    
+   }
+   .hair{
+    float:left;
+    width: 100%;
+    height: 80%;
+    /* margin top right bottom left */
+    margin: 80px 2px 0 0;
+   }
+   .hair > h3{
+    font-size: 17px;
+   }
+   .hair > p{ 
+    font-size: 15px;
+    line-height: 1rem;
+   }
+   #momentum{
+    width: 100%;
+    height: 700px;
+    margin-top: 20px;
+   }
+   .left{
+    width:100%;
+    height: 55%;
+    float: left;
+   }
+   .left h2{
+    font-size:1.4rem ;
+    margin-bottom: 20px;
+   }
+   .left p{
+    font-size:0.8rem ;
+    margin-bottom: 15px;
+    line-height: 0.9rem;
+   }
+   #readBut{
+    margin-top:0;
+   }
+   #readBut a{
+    font-size: 0.7rem;
+   }
+   #video{
+    width: 100%;
+    height: 50%;
+    float: left;
+    margin-top: 15px;
+   }
+   #barbers{
+    width:100%;
+    height: 300px;
+    align-items: flex-start;
+   }
+   .names{
+    width: 50%;
+    height: 80%;
+    margin-right: 5px;
+   }
+   .names div{
+    height: 25%;
+   }
+   .names h4{
+    font-size: 0.6rem;
+   }
+   .names span{
+    font-size: 0.6rem;
+   }
+   #discount{
+    width: 100%;
+   }
+   #discount div{
+    width: 100%;
+   }
+   #discount p{
+    font-size: 0.8rem;
+    width: 55%;
+    height: 20%;
+   }
+   #discount b{
+    margin-top: -25px;
+   }
+   #book{
+    width: 35%;
+    height: 12%;
+   }
+   #book a{
+    font-size: 0.6rem;
+   }
+   #boxes{
+    width: 80%;
+   }
+   .one, .two, .three, .four, .five, .six{
+    width: 45%;
+    height: 30%;
+    position: static;
+  }
+}
